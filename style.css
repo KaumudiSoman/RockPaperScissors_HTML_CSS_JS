@@ -1,0 +1,88 @@
+.header {
+    background-color: #4E6A63;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #F7EDE2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moves {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    width: 600px;
+}
+
+.move-btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    cursor: pointer;
+    border: none;
+}
+
+.move-btn:hover {
+    opacity: 0.6;
+}
+
+#scissors {
+    background-color: #F5CAC3;
+}
+
+#paper {
+    background-color: #F6BD60;
+}
+
+#rock {
+    background-color: #F28482;
+}
+
+.move-img {
+    border-radius: 75px;
+    width: 100%;   
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.you, .comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.you p, .comp p {
+    margin: 3px 0;
+} 
+
+.game-btn {
+    background-color: #4E6A63;
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
